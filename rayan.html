@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rayan Pervaiz - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            width: 800px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .left {
+            background-color: #859eb6;
+            padding: 20px;
+            width: 35%;
+            color: #333;
+        }
+        .right {
+            padding: 20px;
+            width: 65%;
+            color: #333;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        h2 {
+            font-size: 18px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 3px 0;
+        }
+        .contact-info, .languages, .skills, .interests {
+            margin-bottom: 20px;
+        }
+        .right ul {
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container" itemscope itemtype="https://schema.org/Person">
+    <div class="left">
+        <h1 itemprop="name">Rayan Pervaiz</h1>
+        <p itemprop="jobTitle" style="text-align: center;">Digital Marketing Expert</p>
+
+        <div class="contact-info">
+            <h2>Contact</h2>
+            <p>✉️ <a href="mailto:rayanparvaiz5@gmail.com" itemprop="email">rayanparvaiz5@gmail.com</a></p>
+            <p>📍 
+                <span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                    <span itemprop="addressLocality">Sargodha</span>,
+                    <span itemprop="addressCountry">Pakistan</span>
+                </span>
+            </p>
+        </div>
+
+        <div class="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li itemprop="knowsLanguage">English</li>
+                <li itemprop="knowsLanguage">Urdu</li>
+            </ul>
+        </div>
+
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li itemprop="skills">Teamwork</li>
+                <li itemprop="skills">Creativity</li>
+                <li itemprop="skills">Open-mindedness</li>
+                <li itemprop="skills">Punctuality</li>
+                <li itemprop="skills">eCommerce Management</li>
+            </ul>
+        </div>
+
+        <div class="interests">
+            <h2>Interests</h2>
+            <ul>
+                <li itemprop="hobby">Photography</li>
+                <li itemprop="hobby">Traveling</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="career-objective">
+            <h2>Career Objective</h2>
+            <p itemprop="description">
+                "To use my skills in digital marketing to help grow a company by improving online presence and increasing customer engagement."
+            </p>
+        </div>
+
+        <div class="education">
+            <h2>Education</h2>
+            <p>
+                <strong itemprop="alumniOf" itemscope itemtype="https://schema.org/EducationalOrganization">
+                    <span itemprop="name">University of Sargodha</span>
+                </strong> – B.S in Computer Science
+            </p>
+        </div>
+
+        <div class="professional-experience" itemscope itemtype="https://schema.org/Organization">
+            <h2>Professional Experience</h2>
+            <p>
+                <strong itemprop="name">Digital eCommerce Institute</strong> | 
+                <span itemprop="location">Jauharabad, Pakistan</span> | 
+                <meta itemprop="startDate" content="2024-01" /> Jan 2024
+            </p>
+            <ul>
+                <li>Developed and implemented digital marketing strategies that increased website traffic by 40%.</li>
+                <li>Managed social media accounts, boosting follower engagement by 30%.</li>
+                <li>Collaborated with the design team to develop creative content for campaigns.</li>
+            </ul>
+        </div>
+
+        <div class="volunteer" itemscope itemtype="https://schema.org/Organization">
+            <h2>Volunteer</h2>
+            <p>
+                <strong itemprop="name">Non-Profit Organization</strong> | 
+                <meta itemprop="startDate" content="2024-03" /> Mar 2024
+            </p>
+            <ul>
+                <li>Managed social media accounts to increase engagement and reach.</li>
+                <li>Optimized website content to improve search engine rankings.</li>
+                <li>Analyzed campaign performance to improve future outreach strategies.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
